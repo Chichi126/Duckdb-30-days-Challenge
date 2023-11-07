@@ -75,7 +75,7 @@ This challenge has been an extraordinary journey in the realm of data analysis. 
 
 (c) I connected to the MotherDuck for collaboration and accessibility by my teams
 
-*The link for the SQL codes is*![Here](https://github.com/Chichi126/FIFA-21/blob/main/Day%201_2%20challenge.sql)
+![The link for the SQL codes is](https://github.com/Chichi126/FIFA-21/blob/main/Day%201_2%20challenge.sql)
 
 
 
@@ -120,7 +120,7 @@ i) Converted the 'Hits" column to an integer
 
  - List the top 10 players with the highest OVA and POT values.
 
-*Kindly follow the link to the SQL codes* ![](https://github.com/Chichi126/FIFA-21/blob/db66564650b209e6538e159dc96fbaa072faacfe/Day%207.sql)
+ ![Kindly follow the link to the SQL codes](https://github.com/Chichi126/FIFA-21/blob/db66564650b209e6538e159dc96fbaa072faacfe/Day%207.sql)
 
 ## Day 8 and 9 challenge
 
@@ -135,7 +135,7 @@ i) Converted the 'Hits" column to an integer
 
 - Rank players by their OVA in descending order within each club
 
-*Follow the link below to see the SQL codes used to achieve this analysis* ![](https://github.com/Chichi126/FIFA-21/blob/db66564650b209e6538e159dc96fbaa072faacfe/Day%208_9.sql)
+*Follow the link below to see the SQL codes used to achieve this analysis* ![HERE](https://github.com/Chichi126/FIFA-21/blob/db66564650b209e6538e159dc96fbaa072faacfe/Day%208_9.sql)
   
 
 
