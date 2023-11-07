@@ -75,13 +75,88 @@ This challenge has been an extraordinary journey in the realm of data analysis. 
 
 (c) I connected to the MotherDuck for collaboration and accessibility by my teams
 
-The link for the SQL codes are ![Here](https://github.com/Chichi126/FIFA-21/blob/main/Day%201_2%20challenge.sql)
+The link for the SQL codes is![Here](https://github.com/Chichi126/FIFA-21/blob/main/Day%201_2%20challenge.sql)
 
--- Graphics of the dataset
+
 
 ![image](https://github.com/Chichi126/ANALYZING-FIFA-21-/assets/140970592/a8187a89-af6a-4544-baac-31cf5a5a3b42)
 
 
 ![image](https://github.com/Chichi126/ANALYZING-FIFA-21-/assets/140970592/b3306d0d-419f-4a0f-af0e-1156c715d938)
+
+
+
+## Day 3 to 6 Challenge: Data Cleaning Process
+
+#### Here are the tasks to be carried out
+a) Converting Height and Weight to Numerical Form: For the 'Height' column, make sure to extract the numerical value (e.g., 6'0" becomes 6). For the 'Weight' column, remove the "lbs" and convert it to a numerical format.
+
+b) Converting 'Value', 'Wage', and 'Release Clause' to Numbers:
+
+c) The 'Value' column has values like '€100M' (which means 100 million) and '€10K' (which means 10,000). Strip the symbols ('€', 'M', 'K') and convert the values to actual numbers accordingly.
+
+d) The 'Wage' column also uses 'K' (e.g., '€100K'), which should be converted to thousands.
+
+e) The 'Release Clause' column follows the same pattern with 'M' and 'K'. Handling 'Star' Characters:
+
+f) Remove the 'star' character from columns where it appears and make sure the columns are in numerical format.
+
+i) Converted the 'Hits" column to an integer 
+
+*Here is the SQL code for this analysis!* ![](https://github.com/Chichi126/FIFA-21/blob/main/Day%203_6.sql)
+
+![image](https://github.com/Chichi126/ANALYZING-FIFA-21-/assets/140970592/1d43939b-aa3b-4284-8aab-dbf4d1f23ed3)
+
+
+## Day 7-9 Challenge: Querying the Datasets for insights
+
+ #### Here are the tasks to be carried out
+ 
+ - Identify players who possess high value but receive relatively low wages.
+   
+ - Determine the count of players available in the dataset for each position.
+
+ - Find out which club has the largest representation of players in the dataset.
+
+ - List the top 10 players with the highest OVA and POT values.
+
+*Kindly follow the link to the SQL codes* ![](https://github.com/Chichi126/FIFA-21/blob/main/Day%207.sql)
+
+## Day 8 and 9 challenge
+
+#### Here below are the tasks performed 
+- Find players with the highest OVA and POT within each club
+
+- Calculate the average OVA for players under 25 years old and over 30 years old in each club
+
+- List the players who are the same age within each club
+
+- Find the player with the highest POT for each nationality
+
+- Rank players by their OVA in descending order within each club
+
+*Follow the link below to see the SQL codes used to achieve this analysis* ![](https://github.com/Chichi126/FIFA-21/blob/main/Day%208_9.sql)
+  
+
+
+**Observation:**
+1. **Player Profiling:** We've gained a comprehensive understanding of individual players, including their performance metrics, preferred positions, and attributes. This   
+   information can be invaluable for gamers and football enthusiasts looking to make informed decisions about player selection in the game.
+
+2. **Club and Contract Data:** The dataset sheds light on the relationships between players and their respective clubs, along with contract's details. This can be beneficial 
+   for club management simulations, career mode enthusiasts, and fantasy football players.
+
+3. **Market Value and Wage:** We've learned about the market values and wages of players. This data can be useful for evaluating player economics in the context of real-- 
+   world football transfers.
+
+4. **Nationality and Age Analysis:** The dataset allows for demographic analysis, such as the distribution of players by nationality and age, which can be insightful for 
+   assessing the diversity and age composition of the player pool.
+
+5. **Market Analysis:** Understanding player values and wages can be vital for sports marketers, sponsors, and clubs to gauge the marketability and financial implications 
+   of player endorsements.
+
+
+
+
 
 
