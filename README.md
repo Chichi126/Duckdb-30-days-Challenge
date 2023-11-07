@@ -103,7 +103,7 @@ f) Remove the 'star' character from columns where it appears and make sure the c
 
 i) Converted the 'Hits" column to an integer 
 
-*Here is the SQL code for this analysis!* ![](https://github.com/Chichi126/FIFA-21/blob/db66564650b209e6538e159dc96fbaa072faacfe/Day%203_6.sql)
+ ![Here is the SQL code for this analysis!](https://github.com/Chichi126/FIFA-21/blob/db66564650b209e6538e159dc96fbaa072faacfe/Day%203_6.sql)
 
 ![image](https://github.com/Chichi126/ANALYZING-FIFA-21-/assets/140970592/1d43939b-aa3b-4284-8aab-dbf4d1f23ed3)
 
