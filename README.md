@@ -54,8 +54,8 @@ This challenge has been an extraordinary journey in the realm of data analysis. 
 
 # Tools used
 
-- I used Structured Querying Language (SQL) in the Dbeaver environment
-- I will be using Power BI for visualization 
+- Structured Querying Language (SQL) in the Dbeaver environment
+- Power BI for visualization 
 
 
 ## DAY 1 CHALLENGE: SETTING UP MY WORKING ENVIRONMENT
@@ -75,7 +75,7 @@ This challenge has been an extraordinary journey in the realm of data analysis. 
 
 (c) I connected to the MotherDuck for collaboration and accessibility by my teams
 
-The link for the SQL codes is![Here](https://github.com/Chichi126/FIFA-21/blob/main/Day%201_2%20challenge.sql)
+*The link for the SQL codes is*![Here](https://github.com/Chichi126/FIFA-21/blob/main/Day%201_2%20challenge.sql)
 
 
 
@@ -103,7 +103,7 @@ f) Remove the 'star' character from columns where it appears and make sure the c
 
 i) Converted the 'Hits" column to an integer 
 
-*Here is the SQL code for this analysis!* ![](https://github.com/Chichi126/FIFA-21/blob/main/Day%203_6.sql)
+*Here is the SQL code for this analysis!* ![](https://github.com/Chichi126/FIFA-21/blob/db66564650b209e6538e159dc96fbaa072faacfe/Day%203_6.sql)
 
 ![image](https://github.com/Chichi126/ANALYZING-FIFA-21-/assets/140970592/1d43939b-aa3b-4284-8aab-dbf4d1f23ed3)
 
@@ -120,7 +120,7 @@ i) Converted the 'Hits" column to an integer
 
  - List the top 10 players with the highest OVA and POT values.
 
-*Kindly follow the link to the SQL codes* ![](https://github.com/Chichi126/FIFA-21/blob/main/Day%207.sql)
+*Kindly follow the link to the SQL codes* ![](https://github.com/Chichi126/FIFA-21/blob/db66564650b209e6538e159dc96fbaa072faacfe/Day%207.sql)
 
 ## Day 8 and 9 challenge
 
@@ -135,25 +135,11 @@ i) Converted the 'Hits" column to an integer
 
 - Rank players by their OVA in descending order within each club
 
-*Follow the link below to see the SQL codes used to achieve this analysis* ![](https://github.com/Chichi126/FIFA-21/blob/main/Day%208_9.sql)
+*Follow the link below to see the SQL codes used to achieve this analysis* ![](https://github.com/Chichi126/FIFA-21/blob/db66564650b209e6538e159dc96fbaa072faacfe/Day%208_9.sql)
   
 
 
-**Observation:**
-1. **Player Profiling:** We've gained a comprehensive understanding of individual players, including their performance metrics, preferred positions, and attributes. This   
-   information can be invaluable for gamers and football enthusiasts looking to make informed decisions about player selection in the game.
 
-2. **Club and Contract Data:** The dataset sheds light on the relationships between players and their respective clubs, along with contract's details. This can be beneficial 
-   for club management simulations, career mode enthusiasts, and fantasy football players.
-
-3. **Market Value and Wage:** We've learned about the market values and wages of players. This data can be useful for evaluating player economics in the context of real-- 
-   world football transfers.
-
-4. **Nationality and Age Analysis:** The dataset allows for demographic analysis, such as the distribution of players by nationality and age, which can be insightful for 
-   assessing the diversity and age composition of the player pool.
-
-5. **Market Analysis:** Understanding player values and wages can be vital for sports marketers, sponsors, and clubs to gauge the marketability and financial implications 
-   of player endorsements.
 
 
 
