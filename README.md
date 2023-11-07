@@ -75,9 +75,13 @@ This challenge has been an extraordinary journey in the realm of data analysis. 
 
 (c) I connected to the MotherDuck for collaboration and accessibility by my teams
 
+The link for the SQL codes are ![Here](https://github.com/Chichi126/FIFA-21/blob/main/Day%201_2%20challenge.sql)
+
+-- Graphics of the dataset
+
 ![image](https://github.com/Chichi126/ANALYZING-FIFA-21-/assets/140970592/a8187a89-af6a-4544-baac-31cf5a5a3b42)
 
 
 ![image](https://github.com/Chichi126/ANALYZING-FIFA-21-/assets/140970592/b3306d0d-419f-4a0f-af0e-1156c715d938)
 
-Here is the
+
