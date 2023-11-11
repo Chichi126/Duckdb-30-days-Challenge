@@ -139,6 +139,42 @@ i) Converted the 'Hits" column to an integer
   
 
 
+# Day 10: Learning GitHub and Git
+
+Tools used:
+1) Text Editor: I employed Notepad++ to handle SQL code from DBeaver, saving it in a structured query language format for repository interaction.
+
+2) Git Bash: A command-line interface facilitating Git interactions for version control on local and remote repositories.
+
+3) GitHub: The hosting platform for organizing and sharing Git repositories.
+
+Key steps taken:
+
+- I created a local folder and a GitHub repository named Fifa-21 for organizing and sharing my work.
+  
+- Generated a classic token for GitHub authentication to interact with repositories remotely by going to GitHub settings --> developer setting --> Personal access token --> click on the dropdown then Token classic--> generate a classic token...... copy and enter any name at the box below, save in a safe place.
+
+- Cloned the repository to my local PC using Git Bash by copying the repository URL and executing the 'git clone' command, I first got my  code by  going to my Repository code, then clicking the dropdown and copying the URL there and saving somewhere, go to your local, right click on your folder, and open with Git Bash (download it if you don't have) and inside the terminal after booting type: ls (enter) --> git clone (type in the URL copied from your repository) (enter). This automatically saves the repository (FIFA-21) into your local PC folder. 
+
+- Transferred SQL codes from DBeaver to Notepad++, saving them in the local folder with an SQL format.
+
+- Ensured Git recognized SQL files using 'git status.'
+
+- Staged SQL files for commit using 'git add .'
+
+- Committed changes with a comment using 'git commit -m "comments on changes."'
+
+- Connected to GitHub using the personal access token and used 'git push' to send commits to the repository.
+
+Key Git Bash commands:
+
+1. ls: List files and directories.
+2. git add . : Stage files for committing.
+3. git commit -m "comment on changes" : Commit changes with a comment.
+4. git status: Check repository status.
+5. git push: Push changes to the remote repository.
+6. git pull: Pull changes from the remote repository.
+7. git config --global credential.helper store: Configure Git to store credentials.
 
 
 
