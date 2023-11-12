@@ -139,16 +139,17 @@ i) Converted the 'Hits" column to an integer
   
 
 
-# Day 10: Learning GitHub and Git
+## Day 10: Learning GitHub and Git
 
-Tools used:
+#### Tools used:
+
 1) Text Editor: I employed Notepad++ to handle SQL code from DBeaver, saving it in a structured query language format for repository interaction.
 
 2) Git Bash: A command-line interface facilitating Git interactions for version control on local and remote repositories.
 
 3) GitHub: The hosting platform for organizing and sharing Git repositories.
 
-Key steps taken:
+#### Key steps taken:
 
 - I created a local folder and a GitHub repository named Fifa-21 for organizing and sharing my work.
   
@@ -166,7 +167,7 @@ Key steps taken:
 
 - Connected to GitHub using the personal access token and used 'git push' to send commits to the repository.
 
-Key Git Bash commands:
+#### Key Git Bash commands used:
 
 1. ls: List files and directories.
 2. git add . : Stage files for committing.
@@ -176,6 +177,68 @@ Key Git Bash commands:
 6. git pull: Pull changes from the remote repository.
 7. git config --global credential.helper store: Configure Git to store credentials.
 
+
+
+# Day 11 - 12 
+
+
+
+## Power BI Visualization Challenge
+
+
+### Task for the challenge includes:
+
+- Data Import: In Power BI, import the two pre-cleaned datasets from DuckDB. 
+
+- Data Transformation: Perform any necessary data cleaning and transformation within Power BI if you didn't do this early but if you did the first data cleaning task then ignore this one. Ensure that the data is ready for visualization.
+
+- Data Join: Combine the two datasets using a common column (e.g., "Name" or "LongName"). Choose the type of join that's most appropriate for your analysis.
+
+##### Task 1: Nationality Distribution:
+
+- Create a bar chart that displays the distribution of players' nationalities.
+  
+- Allow users to filter by nationality to see players from specific countries.
+
+  
+##### Task 2: Age vs. Potential:
+
+- Build a scatter plot that explores the relationship between a player's "Age" and "POT" (potential).
+  
+- Add a trendline to visualize the trend between age and potential.
+
+##### Task 3: Player Position Analysis:
+
+- Generate a pie chart showing the distribution of player positions ("Positions" column).
+
+- Make the chart interactive so users can select a position to view players with that role.
+
+
+##### Task 4: Top Players by Overall Rating:
+
+- Create a table that lists the top players based on their "OVA" (overall rating) in descending order.
+
+- Allow users to filter by a specific club to see its top-rated players.
+
+##### Dashboard:
+
+- Combine the visualizations from Tasks 4 to 7 in a single Power BI dashboard.
+
+- Add slicers, filters, and drill-through actions to make the dashboard interactive.
+
+- Include a summary or insights section to describe key findings.
+
+### Steps I took to achieve this:
+
+- I exported the two pre-cleaned FIFA datasets as CSV files from DuckDB
+
+- Imported them into Power BI through Power Query, where I did some data transformation by using the **Split column** feature to split the IR column to extract numeric value, then convert it to Whole number type  I also used the **Date feature** to extract the Year from the Date column
+
+-  Joined the two tables on the **model view**
+
+- Created an engaging dashboard with interactive findings using Power BI Canva, imported pictures, charts and Dax formula to get some KPIs
+
+- Kindly follow the link to interact with the Dashboard ![HERE](https://app.powerbi.com/links/LBiF2j7Ihd?ctid=5c4e5ee6-54e6-49fe-a36f-e88a7eadfc94&pbi_source=linkShare)
 
 
 
