@@ -186,7 +186,7 @@ i) Converted the 'Hits" column to an integer
 ## Power BI Visualization Challenge
 
 
-### Task for the challenge includes:
+### The tasks for the challenge include:
 
 - Data Import: In Power BI, import the two pre-cleaned datasets from DuckDB. 
 
@@ -239,6 +239,20 @@ i) Converted the 'Hits" column to an integer
 - Created an engaging dashboard with interactive findings using Power BI Canva, imported pictures, charts and Dax formula to get some KPIs
 
 - Kindly follow the link to interact with the Dashboard ![HERE](https://app.powerbi.com/links/LBiF2j7Ihd?ctid=5c4e5ee6-54e6-49fe-a36f-e88a7eadfc94&pbi_source=linkShare)
+
+### INSIGHTS
+
+
+
+This  analysis is focused on 18980 players with an average Age of 25
+
+1) England  had the highest number of  players with 1.7k
+
+2) CB has the highest percentage of players in Position with 19.4% while  RB had the lowest % of 1.45
+
+3) At Age 28 to 29 there tends to be a very high Potential level and at Age 42 down there tends to be a very low Potential level
+
+4)  L. Messi was seen to be the highest Overall Rated player and K Mbappe is also noted to be the most Valued player
 
 
 
