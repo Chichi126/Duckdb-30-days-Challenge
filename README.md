@@ -266,7 +266,7 @@ I employed the `NTILE` window function to categorize passengers into 6 fare bins
 
 Below is the screen display of the result of our query
 
-![](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Screenshot%20(160).png)
+![](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Screenshot%20(163).png)
 
 - Part 2) to identify the correlation: to achieve this I used the **correlation function** to calculate how the fare amount correlated with survival
 
