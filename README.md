@@ -12,7 +12,7 @@
 
 # FIFA 21 Analysis: "Unraveling the Magic of FIFA: A Data Analysis Journey"
 
-![](https://github.com/Chichi126/ANALYZING-FIFA-21-/blob/main/fifagif.gif)
+![](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/14d8a4e763b8bcc1baa983bb59d81bfb806a77c8/fifagif.gif)
 
 # Introduction
 
@@ -79,11 +79,6 @@ These datasets contain football (soccer) player information from the FIFA 21 gam
 
 
 
-![image](https://github.com/Chichi126/ANALYZING-FIFA-21-/assets/140970592/a8187a89-af6a-4544-baac-31cf5a5a3b42)
-
-
-![image](https://github.com/Chichi126/ANALYZING-FIFA-21-/assets/140970592/b3306d0d-419f-4a0f-af0e-1156c715d938)
-
 
 
 ## Day 3 to 6 Challenge: Data Cleaning Process
@@ -103,9 +98,9 @@ f) Remove the 'star' character from columns where it appears and make sure the c
 
 i) Converted the 'Hits" column to an integer 
 
- ![Here is the SQL code for this analysis!](https://github.com/Chichi126/FIFA-21/blob/db66564650b209e6538e159dc96fbaa072faacfe/Day%203_6.sql)
+ ![Here is the SQL code for this analysis!](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Day%203_6.sql)
 
-![image](https://github.com/Chichi126/ANALYZING-FIFA-21-/assets/140970592/1d43939b-aa3b-4284-8aab-dbf4d1f23ed3)
+
 
 
 ## Day 7-9 Challenge: Querying the Datasets for insights
@@ -120,7 +115,7 @@ i) Converted the 'Hits" column to an integer
 
  - List the top 10 players with the highest OVA and POT values.
 
- ![Kindly follow the link to the SQL codes](https://github.com/Chichi126/FIFA-21/blob/db66564650b209e6538e159dc96fbaa072faacfe/Day%207.sql)
+ ![Kindly follow the link to the SQL codes](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/14d8a4e763b8bcc1baa983bb59d81bfb806a77c8/Day%207.sql)
 
 ## Day 8 and 9 challenge
 
@@ -135,7 +130,7 @@ i) Converted the 'Hits" column to an integer
 
 - Rank players by their OVA in descending order within each club
 
-*Follow the link below to see the SQL codes used to achieve this analysis* ![HERE](https://github.com/Chichi126/FIFA-21/blob/db66564650b209e6538e159dc96fbaa072faacfe/Day%208_9.sql)
+*Follow the link below to see the SQL codes used to achieve this analysis* ![HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/14d8a4e763b8bcc1baa983bb59d81bfb806a77c8/Day%208_9.sql)
   
 
 
@@ -259,19 +254,63 @@ This  analysis is focused on 18980 players with an average Age of 25
 We were presented with three datasets, which comprise events and records from Titanic kindly click ![HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/240f290f3658690bc8a2ad2698f0fc690bf41541/Titanic_dataset_202311222326.csv) 
 
 
+### Here are the Tasks:
 
-
-
-
-### Here are the Challenges 
 ##### Question 1:
+
 Perform an analysis of survival rates based on fare in the Titanic dataset. Utilize the ntile window function to evenly bucket passengers into 6 bins. Calculate statistics for each bin, including survival rates. Examine if there is a correlation between fare amounts and survival. Note any inconsistencies or noise in the fare column and present your findings.
 
+- Part 1), analyze the survival rate based on fare using the **NTILE FUNCTION** and statistics for each by
+
+I employed the `NTILE` window function to categorize passengers into 6 fare bins, allowing for an even distribution across fare ranges, and then calculated the various statistics for each fare bin, including the total number of passengers, the count of survivors, the survival rate (averaged across each bin), the highest and lowest fares within each bin, and the total fare amount for each bin. This helped to identify trends in survival rates across different fare ranges 
+
+Below is the screen display of the result of our query
+
+![](![image](https://github.com/Chichi126/Duckdb-30-days-Challenge/assets/140970592/5d37981d-7cb8-4b03-a532-fb2642766270)
+)
+
+- Part 2) to identify the correlation: to achieve this I used the **correlation function** to calculate how the fare amount correlated with survival
+
+Below is a screen display of the result
+
+![](![image](https://github.com/Chichi126/Duckdb-30-days-Challenge/assets/140970592/9ed3a059-cda3-4cea-bad7-5af7f4af333c)
+)
+
+- Part 3) To identify any inconsistency or noise in the fare column, I used the **Comparison operating function** and also I used the **WHERE CLAUSE** to give my query a pointer, this will help to filter and identify any isolated records where information is either missing (NULL), has a negative value, inconsistencies or irregularities in the fare column data.
+
+Here is the display of my query result
+
+![](![image](https://github.com/Chichi126/Duckdb-30-days-Challenge/assets/140970592/e8f1ec59-34a7-4ecc-a9a4-da18e78e6bd3)
+)
+
 ##### Question 2:
+
 Conduct an analysis of survival rates based on sex in the Titanic dataset. Calculate the percentage of passengers who survived versus those who did not survive, focusing on the distinction between males and females. Express the survival rates and highlight any significant differences in survival ratios between genders. (use subqueries for higher marks)
 
+In response to the above task, I delved in by calculating the percentage of passengers who survived and those who did not survive, specifically distinguishing between males and females. Using subqueries, it summarizes the total number of passengers, survivors, and non-survivors for each gender, emphasizing the stark differences in survival ratios between males and females by showcasing their respective survival and non-survival percentages.
+
+Below is a screen display of the query's result
+
+![](![image](https://github.com/Chichi126/Duckdb-30-days-Challenge/assets/140970592/80ff11c6-d518-44a4-9c54-425b96fe50ac)
+)
+
+
 ##### Question 3:
+
 Explore the relationship between survival and age in the Titanic dataset. Calculate the survival rate for different age groups, providing insights into how age correlates with the likelihood of survival. Consider any notable patterns or trends in survival based on age
+
+To achieve this, I segmented passenger's age into distinct age brackets, from 'Below 20' to 'Over 80', creating cohorts to examine survival trends using the **CASE FUNCTION* This revealed how age correlates with the survival rates of the passengers and the number of passengers in each age group, It reflects the diversity of experiences on that ill-fated journey, offering insights into the human response to adversity across different age groups.
+
+Below is a screen display of the query's result,  
+
+![](![image](https://github.com/Chichi126/Duckdb-30-days-Challenge/assets/140970592/f8d19f6c-630b-4983-aeca-ca7a42f7a630)
+)
+
+
+
+Kindly follow the link to the SQL queries used to analyze the tasks![HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/14d8a4e763b8bcc1baa983bb59d81bfb806a77c8/Challenge%2017%20-%2019.sql)
+
+
 
 
 
