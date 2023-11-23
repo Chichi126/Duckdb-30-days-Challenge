@@ -1,5 +1,5 @@
 
-## 30 Days DuckDB Challenge On FIFA 21 Player Dataset Analysis "Unraveling the Magic of FIFA: A Data Analysis Journey"
+## 30 Days DuckDB Challenge
 
 ## DAY 1 CHALLENGE: SETTING UP MY WORKING ENVIRONMENT
 
@@ -10,7 +10,7 @@
 - Installed Power BI on my computer and configured it [POWER BI](https://powerbi.microsoft.com/en-us/downloads/)
 
 
-# FIFA 21 Analysis
+# FIFA 21 Analysis: "Unraveling the Magic of FIFA: A Data Analysis Journey"
 
 ![](https://github.com/Chichi126/ANALYZING-FIFA-21-/blob/main/fifagif.gif)
 
