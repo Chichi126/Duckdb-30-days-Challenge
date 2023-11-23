@@ -266,22 +266,20 @@ I employed the `NTILE` window function to categorize passengers into 6 fare bins
 
 Below is the screen display of the result of our query
 
-![](![image](https://github.com/Chichi126/Duckdb-30-days-Challenge/assets/140970592/5d37981d-7cb8-4b03-a532-fb2642766270)
-)
+![](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Screenshot%20(160).png)
 
 - Part 2) to identify the correlation: to achieve this I used the **correlation function** to calculate how the fare amount correlated with survival
 
 Below is a screen display of the result
 
-![](![image](https://github.com/Chichi126/Duckdb-30-days-Challenge/assets/140970592/9ed3a059-cda3-4cea-bad7-5af7f4af333c)
-)
+![](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Screenshot%20(161).png)
 
 - Part 3) To identify any inconsistency or noise in the fare column, I used the **Comparison operating function** and also I used the **WHERE CLAUSE** to give my query a pointer, this will help to filter and identify any isolated records where information is either missing (NULL), has a negative value, inconsistencies or irregularities in the fare column data.
 
 Here is the display of my query result
 
-![](![image](https://github.com/Chichi126/Duckdb-30-days-Challenge/assets/140970592/e8f1ec59-34a7-4ecc-a9a4-da18e78e6bd3)
-)
+![](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Screenshot%20(153).png)
+
 
 ##### Question 2:
 
@@ -291,8 +289,7 @@ In response to the above task, I delved in by calculating the percentage of pass
 
 Below is a screen display of the query's result
 
-![](![image](https://github.com/Chichi126/Duckdb-30-days-Challenge/assets/140970592/80ff11c6-d518-44a4-9c54-425b96fe50ac)
-)
+![](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Screenshot%20(156).png)
 
 
 ##### Question 3:
@@ -303,8 +300,7 @@ To achieve this, I segmented passenger's age into distinct age brackets, from 'B
 
 Below is a screen display of the query's result,  
 
-![](![image](https://github.com/Chichi126/Duckdb-30-days-Challenge/assets/140970592/f8d19f6c-630b-4983-aeca-ca7a42f7a630)
-)
+![](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Screenshot%20(154).png)
 
 
 
