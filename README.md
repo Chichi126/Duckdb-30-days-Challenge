@@ -304,7 +304,7 @@ Below is a screen display of the query's result,
 
 
 
-Kindly follow the link to the SQL queries used to analyze the tasks![HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/14d8a4e763b8bcc1baa983bb59d81bfb806a77c8/Challenge%2017%20-%2019.sql)
+Kindly follow the link to the SQL queries used to analyze the tasks![HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Challenge%2017%20-%2019.sql)
 
 
 
