@@ -1,7 +1,16 @@
-# FIFA-21
 
 ## 30 Days DuckDB Challenge On FIFA 21 Player Dataset Analysis "Unraveling the Magic of FIFA: A Data Analysis Journey"
 
+## DAY 1 CHALLENGE: SETTING UP MY WORKING ENVIRONMENT
+
+- I Created an account with MotherDuck ![MOTHERDUCK GUIDE]( https://app.motherduck.com/?auth_flow=signup)
+
+- I Installed DuckDB through the installation instructions and guide provided ![DUCKDB GUIDE](https://duckdb.org/docs/guides/sql_editors/dbeaver.html)
+
+- Installed Power BI on my computer and configured it [POWER BI](https://powerbi.microsoft.com/en-us/downloads/)
+
+
+# FIFA 21 Analysis
 
 ![](https://github.com/Chichi126/ANALYZING-FIFA-21-/blob/main/fifagif.gif)
 
@@ -9,10 +18,10 @@
 
 Welcome,
 
-These datasets contain football (soccer) player information from the FIFA 21 game. They encompass details such as player names, nationalities, ages, positions, club affiliations, contract dates, and a wide array of performance metrics.
-
 For this #30daysduckdbchallenge I will be working with two datasets, Fifa_21_raw1 and Fifa_21_raw2, both featuring identical column names. 
 This challenge has been an extraordinary journey in the realm of data analysis. It has not only honed my SQL skills but has also showcased the capabilities of DuckDB in effectively managing real-world data challenges. Here is the link to the dataset![Here](https://github.com/Chichi126/FIFA-21/tree/f1c833169aebbaae27337b9f811f17e956a76b1f/Dataset)
+
+These datasets contain football (soccer) player information from the FIFA 21 game. They encompass details such as player names, nationalities, ages, positions, club affiliations, contract dates, and a wide array of performance metrics.
 
 ### Dataset Attributes
 
@@ -57,14 +66,6 @@ This challenge has been an extraordinary journey in the realm of data analysis. 
 - Structured Querying Language (SQL) in the Dbeaver environment
 - Power BI for visualization 
 
-
-## DAY 1 CHALLENGE: SETTING UP MY WORKING ENVIRONMENT
-
-- I Created an account with MotherDuck ![]( https://app.motherduck.com/?auth_flow=signup)
-
-- I Installed DuckDB through the installation instructions and guide provided ![](https://duckdb.org/docs/installation.)
-
-- And also to install Power BI for those that do not have it
 
 
 ## DAY 2 & 3 CHALLENGE: 
