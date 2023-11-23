@@ -257,7 +257,7 @@ This  analysis is focused on 18980 players with an average Age of 25
 
 
 # Day 17 - 19
-We were presented with three datasets, which comprise events and records from Titanic kindly click ![HERE]() 
+We were presented with three datasets, which comprise events and records from Titanic kindly click ![HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/240f290f3658690bc8a2ad2698f0fc690bf41541/Titanic_dataset_202311222326.csv) 
 
 
 
