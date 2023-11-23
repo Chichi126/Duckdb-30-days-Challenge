@@ -243,7 +243,6 @@ i) Converted the 'Hits" column to an integer
 ### INSIGHTS
 
 
-
 This  analysis is focused on 18980 players with an average Age of 25
 
 1) England  had the highest number of  players with 1.7k
@@ -252,7 +251,12 @@ This  analysis is focused on 18980 players with an average Age of 25
 
 3) At Age 28 to 29 there tends to be a very high Potential level and at Age 42 down there tends to be a very low Potential level
 
-4)  L. Messi was seen to be the highest Overall Rated player and K Mbappe is also noted to be the most Valued player
+4)  L. Messi was seen to be the highest overall-rated player and K Mbappe is also noted to be the most Valued player
+
+
+
+# Day 17 - 19
+We were presented with three datasets, which comprise events and records from Titanic kindly click ![HERE]() 
 
 
 
