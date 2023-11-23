@@ -43,7 +43,7 @@ WITH fare_buckets AS (
        SUM(Survived) AS Total_survivors,
        Round(AVG(Survived),2) AS Survival_rate,
        Max(Fare) AS HighestFare,
-       Min(Fare) AS HighestFare,
+       Min(Fare) AS LowestFare,
        sum(Fare) AS TotalFare,
        fare_bin
 FROM fare_buckets
@@ -51,8 +51,10 @@ GROUP BY fare_bin
 ORDER BY fare_bin
 
 -- To calculate the correlation
-SELECT CORR(Fare, Survived) AS correlation
-FROM Titanic_dataset;
+
+SELECT 
+	CORR (fare, Survived) 
+FROM main.Titanic_dataset 
 
 -- there is an indication of a moderate positive relationship between the variables
 
@@ -60,6 +62,8 @@ FROM Titanic_dataset;
 SELECT *
 FROM Titanic_dataset
 WHERE Fare IS NULL OR Fare < 0; 
+
+
 
 -- Q2) 
 
@@ -92,12 +96,7 @@ SELECT
 	ROUND(SUM(survived)/COUNT(*)*100,2)AS survival_rate
 FROM titanic_dataset
 GROUP BY Age_group
-ORDER BY MIN(age);
-	
-	
-	
-		
-	END
+ORDER BY MIN(Age) ASC;
 	
 
 
