@@ -3,7 +3,7 @@
 
 ## DAY 1 CHALLENGE: SETTING UP MY WORKING ENVIRONMENT
 
-- I Created an account with MotherDuck ![MOTHERDUCK GUIDE]( https://app.motherduck.com/?auth_flow=signup)
+- I Created an account with MotherDuck ![MOTHERDUCK GUIDE](https://app.motherduck.com/?auth_flow=signup)
 
 - I Installed DuckDB through the installation instructions and guide provided ![DUCKDB GUIDE](https://duckdb.org/docs/guides/sql_editors/dbeaver.html)
 
