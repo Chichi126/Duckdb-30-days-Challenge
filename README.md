@@ -233,7 +233,7 @@ i) Converted the 'Hits" column to an integer
 
 - Created an engaging dashboard with interactive findings using Power BI Canva, imported pictures, charts and Dax formula to get some KPIs
 
-- Kindly follow the link to interact with the Dashboard ![HERE](https://app.powerbi.com/links/LBiF2j7Ihd?ctid=5c4e5ee6-54e6-49fe-a36f-e88a7eadfc94&pbi_source=linkShare)
+- Kindly follow the link to interact with the Dashboard [HERE](https://app.powerbi.com/links/LBiF2j7Ihd?ctid=5c4e5ee6-54e6-49fe-a36f-e88a7eadfc94&pbi_source=linkShare)
 
 ### INSIGHTS
 
