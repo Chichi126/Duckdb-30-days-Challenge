@@ -250,7 +250,11 @@ This  analysis is focused on 18980 players with an average Age of 25
 
 
 
-# Day 17 - 19
+# Day 17 - 19 
+
+## EXPOSITORY ANALYSIS OF THE TITANIC EVENT
+
+
 We were presented with three datasets, which comprise events and records from Titanic kindly click ![HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/240f290f3658690bc8a2ad2698f0fc690bf41541/Titanic_dataset_202311222326.csv) 
 
 
@@ -296,7 +300,7 @@ Below is a screen display of the query's result
 
 Explore the relationship between survival and age in the Titanic dataset. Calculate the survival rate for different age groups, providing insights into how age correlates with the likelihood of survival. Consider any notable patterns or trends in survival based on age
 
-To achieve this, I segmented passenger's age into distinct age brackets, from 'Below 20' to 'Over 80', creating cohorts to examine survival trends using the **CASE FUNCTION* This revealed how age correlates with the survival rates of the passengers and the number of passengers in each age group, It reflects the diversity of experiences on that ill-fated journey, offering insights into the human response to adversity across different age groups.
+To achieve this, I segmented passenger's age into distinct age brackets, from 'Below 20' to 'Over 80', creating cohorts to examine survival trends using the **CASE FUNCTION* This revealed how age correlates with the survival rates of the passengers and the number of passengers in each age group. It reflects the diversity of experiences on that ill-fated journey, offering insights into the human response to adversity across different age groups.
 
 Below is a screen display of the query's result,  
 
@@ -307,6 +311,65 @@ Below is a screen display of the query's result,
 Kindly follow the link to the SQL queries used to analyze the tasks![HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Challenge%2017%20-%2019.sql)
 
 
+### DAY 19 - 20
+
+To further explore the event, we will be embarking on discovering the following:
+
+##### Question 1: Understanding Titles and Survival Rates
+
+Objective: Explore the relationship between passenger titles and their survival rates.
+
+a. Identify unique titles in the dataset.
+
+b. Consolidate infrequent titles into broader categories (e.g., Mr, Mrs, Miss, Master).
+
+c. Calculate and analyze survival rates for each title grouping.
+
+To achieve part (a) of the number 1 question, I started by identifying the unique titles in the dataset by using a SELECT DISTINCT query to select the distinct values that were attached to their names in the Name column. To extract them, I used the CASE statement to categorize titles into the following categories:
+
+- Master
+
+- Miss
+
+- Mrs.
+
+- Mr.
+
+- Other (which comprises of Dr, Rev, Col, Countess, Mlle, Ms. Etc.)
+
+Part b) To streamline and categorize less common titles into more comprehensive groups such as 'Mr,' 'Mrs,' 'Miss,' and 'Master,' I analyzed various patterns within the Name column. Titles like 'Don,' 'Dr,' 'Rev,' 'Major,' 'Sir,' 'Col,', 'Jonkheer' etc., were linked with the 'Mr' category, while 'Donna,' 'Dr,' 'Lady,' 'Countess,' etc., were associated with the 'Mrs' category. All occurrences of 'Miss' and 'Master' were identified and grouped accordingly. This categorization process utilized a series of CASE statements and pattern matching using wildcards to capture distinct title variations.
+
+
+Part C) 
+
+- **Miss:** There were 262 passengers identified as 'Miss.' Out of these, 207 survived, yielding a survival rate of 79%.
+  
+- **Mrs.:** The dataset contained 207 instances categorized under 'Mrs.' Among them, 176 passengers survived, resulting in a survival rate of 85%.
+  
+- **Mr.:** A total of 779 passengers were labeled as 'Mr.' However, only 88 of them survived, accounting for a survival rate of 11%.
+  
+- **Master.:** There were 61 passengers classified as 'Master.' Out of these, 23 survived, giving a survival rate of 38%.
+
+This analysis reveals varying survival rates among different titles. The survival rates for 'Mrs.' and 'Miss' are notably higher compared to 'Mr.' and 'Master,' where a considerably lower percentage of passengers survived. These insights suggest potential correlations between passenger title and survival rates aboard the Titanic.
+
+
+
+##### Question 2:  calculate the survival based on being a woman or a child
+
+Objective: Evaluate the insights gained from a binary feature flagging passengers as women/children or adult men.
+
+
+Certainly! The analysis of the survival rates based on the categorization of passengers into children, women, and adult males reveals some intriguing insights:
+
+- **Children**: With a total count of 154 children, 78 survived, resulting in a survival rate of approximately 51%. This shows a moderate survival rate among children, indicating a reasonable priority given to their safety during the disaster.
+
+- **Women**: The count indicates 316 women on board, out of which 269 survived. This category exhibited the highest survival rate at around 85%. This notably high survival rate might indicate a tendency to prioritize the safety of women during the evacuation.
+
+- **Adult Males**: There were 839 adult males among the passengers, but only 147 survived, yielding a significantly lower survival rate of approximately 18%.
+
+ This sharp contrast in survival rates between men and women/children suggests a potential prioritization of women and children during the evacuation process, resulting in lower survival rates among adult males.
+
+These findings imply a potential adherence to the principle of "women and children first" during the Titanic disaster, where women and children were given precedence in the evacuation, resulting in higher survival rates compared to adult males.
 
 
 
