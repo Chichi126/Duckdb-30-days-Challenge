@@ -1,11 +1,11 @@
 ## 30 Days DuckDB Challenge
-This 30 Days DuckDB Challenge will serve as an extraordinary journey into the realm of data analysis. It will help me enhance my SQL skills and showcase DuckDB's capabilities in effectively managing real-world data challenges. Each day will offer an opportunity to refine analytical expertise, unravel the intricacies of SQL, and harness DuckDB's robust functionalities. This immersive experience will empower me to tackle complex data tasks with ease, expand my horizons, and nurture confidence in overcoming future data challenges efficiently.
+This 30-day DuckDB Challenge will serve as an extraordinary journey into the realm of data analysis. It will help me enhance my SQL skills and showcase DuckDB's capabilities for effectively managing real-world data challenges. Each day will offer an opportunity to refine analytical expertise, unravel the intricacies of SQL, and harness DuckDB's robust functionalities. This immersive experience will empower me to tackle complex data tasks with ease, expand my horizons, and nurture confidence in overcoming future data challenges efficiently.
 
 ## DAY 1 CHALLENGE: SETTING UP MY WORKING ENVIRONMENT
 
-- I created an account with MotherDuck![Here](https://motherduck.com/docs/key-tasks/loading-data-into-motherduck/)
+- I created an account with MotherDuck[Here](https://motherduck.com/docs/key-tasks/loading-data-into-motherduck/)
 
-- I installed DuckDB through the installation instructions and guide provided ![DUCKDB GUIDE](https://motherduck.com/docs/integrations/dbeaver/)
+- I installed DuckDB through the installation instructions and guide provided [DUCKDB GUIDE](https://motherduck.com/docs/integrations/dbeaver/)
 
 - Installed Power BI on my computer and configured it [POWER BI](https://powerbi.microsoft.com/en-us/downloads/)
 
@@ -18,7 +18,7 @@ This 30 Days DuckDB Challenge will serve as an extraordinary journey into the re
 
 
 For this #30daysduckdbchallenge I will be working with two datasets, Fifa_21_raw1 and Fifa_21_raw2, both featuring identical column names. 
-Here is the link to the dataset![Here](https://github.com/Chichi126/FIFA-21/tree/f1c833169aebbaae27337b9f811f17e956a76b1f/Dataset)
+Here is the link to the dataset[Here](https://github.com/Chichi126/FIFA-21/tree/f1c833169aebbaae27337b9f811f17e956a76b1f/Dataset)
 
 These datasets contain football (soccer) player information from the FIFA 21 game. They encompass details such as player names, nationalities, ages, positions, club affiliations, contract dates, and a wide array of performance metrics.
 
