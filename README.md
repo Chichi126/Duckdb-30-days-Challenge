@@ -75,7 +75,7 @@ These datasets contain football (soccer) player information from the FIFA 21 gam
 
 (c) I connected to the MotherDuck for collaboration and accessibility by my teams
 
-![The link for the SQL codes is](https://github.com/Chichi126/FIFA-21/blob/main/Day%201_2%20challenge.sql)
+[The link for the SQL codes is](https://github.com/Chichi126/FIFA-21/blob/main/Day%201_2%20challenge.sql)
 
 
 
@@ -98,7 +98,7 @@ f) Remove the 'star' character from columns where it appears and make sure the c
 
 i) Converted the 'Hits" column to an integer 
 
- ![Here is the SQL code for this analysis!](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Day%203_6.sql)
+ [Here is the SQL code for this analysis!](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Day%203_6.sql)
 
 
 
@@ -115,7 +115,7 @@ i) Converted the 'Hits" column to an integer
 
  - List the top 10 players with the highest OVA and POT values.
 
- ![Kindly follow the link to the SQL codes](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/14d8a4e763b8bcc1baa983bb59d81bfb806a77c8/Day%207.sql)
+ [Kindly follow the link to the SQL codes](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/14d8a4e763b8bcc1baa983bb59d81bfb806a77c8/Day%207.sql)
 
 ## Day 8 and 9 challenge
 
@@ -130,7 +130,7 @@ i) Converted the 'Hits" column to an integer
 
 - Rank players by their OVA in descending order within each club
 
-*Follow the link below to see the SQL codes used to achieve this analysis* ![HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/14d8a4e763b8bcc1baa983bb59d81bfb806a77c8/Day%208_9.sql)
+*Follow the link below to see the SQL codes used to achieve this analysis* [HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/14d8a4e763b8bcc1baa983bb59d81bfb806a77c8/Day%208_9.sql)
   
 
 
@@ -255,14 +255,14 @@ This  analysis is focused on 18980 players with an average Age of 25
 ## EXPOSITORY ANALYSIS OF THE TITANIC EVENT
 
 
-We were presented with three datasets, which comprise events and records from Titanic kindly click ![HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/240f290f3658690bc8a2ad2698f0fc690bf41541/Titanic_dataset_202311222326.csv) 
+We were presented with three datasets, which comprise events and records from Titanic kindly click [HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/240f290f3658690bc8a2ad2698f0fc690bf41541/Titanic_dataset_202311222326.csv) 
 
 
 ### Here are the Tasks:
 
 ##### Question 1:
 
-Perform an analysis of survival rates based on fare in the Titanic dataset. Utilize the ntile window function to evenly bucket passengers into 6 bins. Calculate statistics for each bin, including survival rates. Examine if there is a correlation between fare amounts and survival. Note any inconsistencies or noise in the fare column and present your findings.
+Perform an analysis of survival rates based on fare in the Titanic dataset. Utilize the NTILE window function to evenly bucket passengers into 6 bins. Calculate statistics for each bin, including survival rates. Examine if there is a correlation between fare amounts and survival. Note any inconsistencies or noise in the fare column and present your findings.
 
 - Part 1), analyze the survival rate based on fare using the **NTILE FUNCTION** and statistics for each by
 
@@ -308,7 +308,7 @@ Below is a screen display of the query's result,
 
 
 
-Kindly follow the link to the SQL queries used to analyze the tasks![HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Challenge%2017%20-%2019.sql)
+Kindly follow the link to the SQL queries used to analyze the tasks[HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Challenge%2017%20-%2019.sql)
 
 
 ### DAY 19 - 20
@@ -378,7 +378,7 @@ These findings imply a potential adherence to the principle of "women and childr
 ![](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/2d58fdf2b73db7be7e9c6e73803e3154ff32b646/Screenshot%20(167).png)
 
 
-Kindly follow the link to view the query statement used ![HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/19%20-%2020.sql)
+Kindly follow the link to view the query statement used [HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/19%20-%2020.sql)
 
 
 
