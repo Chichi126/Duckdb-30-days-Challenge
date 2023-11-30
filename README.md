@@ -75,7 +75,7 @@ These datasets contain football (soccer) player information from the FIFA 21 gam
 
 (c) I connected to the MotherDuck for collaboration and accessibility by my teams
 
-[The link for the SQL codes is](https://github.com/Chichi126/FIFA-21/blob/main/Day%201_2%20challenge.sql)
+[The link for the SQL codes is here](https://github.com/Chichi126/FIFA-21/blob/main/Day%201_2%20challenge.sql)
 
 
 
