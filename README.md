@@ -362,9 +362,7 @@ This analysis reveals varying survival rates among different titles. The surviva
 
 Objective: Evaluate the insights gained from a binary feature flagging passengers as women/children or adult men.
 
-
-Certainly! The analysis of the survival rates based on the categorization of passengers into children, women, and adult males reveals some intriguing insights:
-
+###### Findings
 - **Children**: With a total count of 154 children, 78 survived, resulting in a survival rate of approximately 51%. This shows a moderate survival rate among children, indicating a reasonable priority given to their safety during the disaster.
 
 - **Women**: The count indicates 316 women on board, out of which 269 survived. This category exhibited the highest survival rate at around 85%. This notably high survival rate might indicate a tendency to prioritize the safety of women during the evacuation.
