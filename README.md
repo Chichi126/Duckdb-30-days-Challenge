@@ -337,6 +337,8 @@ To achieve part (a) of the number 1 question, I started by identifying the uniqu
 
 - Other (which comprises of Dr, Rev, Col, Countess, Mlle, Ms. Etc.)
 
+  ![](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Screenshot%20(168).png)
+
 Part b) To streamline and categorize less common titles into more comprehensive groups such as 'Mr,' 'Mrs,' 'Miss,' and 'Master,' I analyzed various patterns within the Name column. Titles like 'Don,' 'Dr,' 'Rev,' 'Major,' 'Sir,' 'Col,', 'Jonkheer' etc., were linked with the 'Mr' category, while 'Donna,' 'Dr,' 'Lady,' 'Countess,' etc., were associated with the 'Mrs' category. All occurrences of 'Miss' and 'Master' were identified and grouped accordingly. This categorization process utilized a series of CASE statements and pattern matching using wildcards to capture distinct title variations.
 
 
@@ -351,6 +353,8 @@ Part C)
 - **Master.:** There were 61 passengers classified as 'Master.' Out of these, 23 survived, giving a survival rate of 38%.
 
 This analysis reveals varying survival rates among different titles. The survival rates for 'Mrs.' and 'Miss' are notably higher compared to 'Mr.' and 'Master,' where a considerably lower percentage of passengers survived. These insights suggest potential correlations between passenger title and survival rates aboard the Titanic.
+
+![](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Screenshot%20(166).png)
 
 
 
@@ -371,6 +375,10 @@ Certainly! The analysis of the survival rates based on the categorization of pas
 
 These findings imply a potential adherence to the principle of "women and children first" during the Titanic disaster, where women and children were given precedence in the evacuation, resulting in higher survival rates compared to adult males.
 
+![](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/2d58fdf2b73db7be7e9c6e73803e3154ff32b646/Screenshot%20(167).png)
+
+
+Kindly follow the link to view the query statement used ![HERE](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/19%20-%2020.sql)
 
 
 
