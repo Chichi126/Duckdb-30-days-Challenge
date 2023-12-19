@@ -362,7 +362,8 @@ This analysis reveals varying survival rates among different titles. The surviva
 
 Objective: Evaluate the insights gained from a binary feature flagging passengers as women/children or adult men.
 
-###### Findings
+**Findings**
+
 - **Children**: With a total count of 154 children, 78 survived, resulting in a survival rate of approximately 51%. This shows a moderate survival rate among children, indicating a reasonable priority given to their safety during the disaster.
 
 - **Women**: The count indicates 316 women on board, out of which 269 survived. This category exhibited the highest survival rate at around 85%. This notably high survival rate might indicate a tendency to prioritize the safety of women during the evacuation.
@@ -397,15 +398,15 @@ Task 3: Family size is calculated by adding SibSp, ParCh, and the current passen
 
 kindly follow the link to see the query syntax used to achieve this analysis [*HERE*](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Challenge%2021%20-%2023.sql)
 
+**Findings**
 
-
-###### Cabin Level and Survival Rate:
+##### Cabin Level and Survival Rate:
 
 Cabin Level B exhibited the highest survival rate among passengers at approximately 69.12%. Despite accommodating 68 passengers, this level showed a significantly higher survival rate compared to others.
 
 Conversely, Cabin Level C, while having the highest number of passengers, did not exhibit the highest survival rate. This might suggest variations in factors influencing survival across different cabin levels, beyond just passenger count.
 
-###### Family Size:
+##### Family Size:
 
 The dataset revealed that the highest family size among passengers was 11. This insight might indicate that some families or groups traveling together were relatively large, potentially impacting decision-making during the evacuation or receiving assistance.
 
