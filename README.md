@@ -418,7 +418,7 @@ In these tasks, we dived into exploring
 
 - the survival rates of the males in the third passage class
 
-  [](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Screenshot%20(171).png)
+  ![](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Screenshot%20(171).png)
   
 - the percentage survived between Sex, Embarked, and PClass
 
