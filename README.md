@@ -411,3 +411,19 @@ Conversely, Cabin Level C, while having the highest number of passengers, did no
 The dataset revealed that the highest family size among passengers was 11. This insight might indicate that some families or groups traveling together were relatively large, potentially impacting decision-making during the evacuation or receiving assistance.
 
 
+### Day 24 - 26
+
+
+In these tasks, we dived into exploring 
+
+- the survival rates of the males in the third passage class
+
+  [](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Screenshot%20(171).png)
+  
+- the percentage survived between Sex, Embarked, and PClass
+
+- If you were to advise your chances of survival on the Titanic, what would you say? If you are of the below data (Sex:Male, Age: 36, Pclass:2, Emabrked:C)
+
+
+
+
