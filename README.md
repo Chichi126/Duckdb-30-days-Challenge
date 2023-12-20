@@ -425,5 +425,12 @@ In these tasks, we dived into exploring
 - If you were to advise your chances of survival on the Titanic, what would you say? If you are of the below data (Sex:Male, Age: 36, Pclass:2, Emabrked:C)
 
 
+**Observation**
+
+- 1) The analysis of survival rates among male passengers on the Titanic reveals a survival percentage of approximately 9.53%. Among a total of 493 male passengers, only 47 survived the tragedy. There was a significantly lower survival rate among males which highlighted the gender-based priority policy during the evacuation, favoring women and children, this impacted male survival chances.
+
+- 2) The second analysis showed the importance of various factors in determining survival chances during the Titanic disaster, emphasizing that certain combinations of demographics and circumstances might have led to significantly lower survival rates. In line with the example given there was a 0% survival rate of males that are 36 of age, that Embarked at port C that are also second class.
+
+kindly follow the link to see the query code ![**Here**](https://github.com/Chichi126/Duckdb-30-days-Challenge/blob/main/Challenge%2024%20-%2026.sql)
 
 
